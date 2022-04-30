@@ -7,7 +7,7 @@ public class Character implements Cloneable {
     private double weight;
 
     public Character(String body, Hat hat, String skin, int age, double height, double weight){
-         this.body = body;
+        this.body = body;
         this.hat = hat;
         this.skin = skin;
         this.age = age;
@@ -72,13 +72,13 @@ public class Character implements Cloneable {
 
     @Override
     public String toString() {
-        return "Aluno{" +
-                "body=" + body +
-                ", hat color='" + getHat().color + '\'' +
-                ", skin=" + skin +
-                ", age='" + age + '\'' +
-                ", height='" + height + '\'' +
-                ", weight='" + weight + '\'' +
+        return "Character{" +
+                "body='" + body + '\'' +
+                ", hat=" + hat +
+                ", skin='" + skin + '\'' +
+                ", age=" + age +
+                ", height=" + height +
+                ", weight=" + weight +
                 '}';
     }
 }

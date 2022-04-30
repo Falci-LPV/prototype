@@ -42,9 +42,10 @@ public class Hat implements Cloneable{
 
     @Override
     public String toString() {
-        return "Endereco{" +
-                "color='" + color + '\'' +
-                ", model=" + model +
+        return "Hat{" +
+                "color='" + color +'\'' +
+                ", model='" + model +'\'' +
+                ", size=" + size +
                 '}';
     }
 }
